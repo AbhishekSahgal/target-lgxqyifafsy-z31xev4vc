@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "TARGET",
+    "slug": "target-lgxqyifafsy-z31xev4vc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abhaysahgal.targetlgxqyifafsyz31xev4vc"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abhaysahgal.targetlgxqyifafsyz31xev4vc"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c82fc2ae-d611-400f-a326-10f1112ff418"
+      }
+    },
+    "owner": "abhaysahgal",
+    "updates": {
+      "url": "https://u.expo.dev/c82fc2ae-d611-400f-a326-10f1112ff418"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
